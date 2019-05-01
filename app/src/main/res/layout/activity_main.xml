@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/pelajaran"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplikasi Mata Pelajaran"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:textSize="25dp"
+        />
+
+    <Button
+        android:id="@+id/mtk"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pelajaran"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Matematika" />
+
+    <Button
+        android:id="@+id/ipa"
+        android:layout_below="@+id/mtk"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="IPA"/>
+
+    <Button
+        android:id="@+id/ips"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/mtk"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="IPS" />
+
+    <Button
+        android:id="@+id/indonesia"
+        android:layout_below="@+id/ipa"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="Bahasa Indonesia"/>
+
+    <Button
+        android:id="@+id/inggris"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ips"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:text="Bahasa Inggris" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:text="Dibuat oleh Bayu Agung Gumelar"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
